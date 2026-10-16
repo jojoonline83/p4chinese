@@ -24,8 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # This branch = the main app + the /holiday/ revision camp page
-          ref: ccr-73caf541-fupjre
+          ref: claude/chinese-learning-app-46Ajm
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
