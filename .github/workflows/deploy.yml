@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - claude/chinese-learning-app-46Ajm
-      - ccr-73caf541-fupjre
       - main
   workflow_dispatch:
 
