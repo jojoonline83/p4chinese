@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - claude/chinese-learning-app-46Ajm
+      - ccr-73caf541-fupjre
       - main
   workflow_dispatch:
 
@@ -23,7 +24,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: claude/chinese-learning-app-46Ajm
+          # This branch = the main app + the /holiday/ revision camp page
+          ref: ccr-73caf541-fupjre
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
